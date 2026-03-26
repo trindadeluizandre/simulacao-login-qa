@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 350px;
+}
+
+h2 { text-align: center; color: #333; }
+
+.input-group { margin-bottom: 20px; }
+
+label { display: block; margin-bottom: 5px; font-weight: bold; }
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 12px;
+    display: none; /* Escondido por padrão */
+    margin-top: 5px;
+}
+
+.input-error { border: 2px solid #dc3545; }
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover { background-color: #218838; }
+
+#feedbackMessage {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
