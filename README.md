@@ -45,5 +45,5 @@ Evidência de Execução / Execution Evidence / Evidencia de Ejecución
 
 ---
 Documento oficial de registro de atividades Quality Assurance. 
-Responsável:Andre Luiz Trindade
+Andre Luiz Trindade
 Data da última atualização: 27/03/2026
