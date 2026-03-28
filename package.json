@@ -1,0 +1,25 @@
+{
+  "name": "modulo-login",
+  "version": "1.0.0",
+  "description": "Este repositório contém a implementação e o plano de testes para um módulo de login, desenvolvido como parte do treinamento em Quality Assurance (QA). O foco inicial é a validação de fluxos de entrada e a integridade da interface sob diferentes condições de dados.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trindadeluizandre/simulacao-login-qa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/trindadeluizandre/simulacao-login-qa/issues"
+  },
+  "homepage": "https://github.com/trindadeluizandre/simulacao-login-qa#readme",
+  "devDependencies": {
+    "cypress": "^15.13.0",
+    "typescript": "^6.0.2"
+  }
+}

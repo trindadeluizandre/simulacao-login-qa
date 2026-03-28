@@ -7,13 +7,20 @@
     loginForm?.addEventListener('submit', (event) => {
         event.preventDefault();
 
-        const emailValue = emailInput.value;
-        const passwordValue = passwordInput.value;
+        const emailValue = emailInput.value.trim();
+        const passwordValue = passwordInput.value.trim();
 
-        if (emailValue === "admin@teste.com" && passwordValue === "123456") {
+        // Validação de campos vazios
+        if (emailValue === "" || passwordValue === "") {
+            feedback.innerText = "Erro: Todos os campos são obrigatórios.";
+            feedback.style.color = "red";
+        } 
+        // Validação de credenciais
+        else if (emailValue === "admin@teste.com" && passwordValue === "123456") {
             feedback.innerText = "Login realizado com sucesso!";
             feedback.style.color = "green";
-        } else {
+        } 
+        else {
             feedback.innerText = "Usuário ou senha incorretos.";
             feedback.style.color = "red";
         }
