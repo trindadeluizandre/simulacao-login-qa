@@ -44,7 +44,6 @@ Evidência de Execução / Execution Evidence / Evidencia de Ejecución
 ![Resultado Cypress](./evidencia-teste-login.png)
 
 ---
-Documento oficial de registro de atividades de Quality Assurance. 
-Responsável: 
-Andre Luiz Trindade
+Documento oficial de registro de atividades Quality Assurance. 
+Responsável:Andre Luiz Trindade
 Data da última atualização: 27/03/2026
